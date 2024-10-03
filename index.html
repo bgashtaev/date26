@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Special Day</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> <!-- Using Nerko One font -->
+    <style>
+        body {
+            background-color: #ffebcc;
+            font-family: 'Nerko One', cursive;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 30%;
+            margin: 10px 0;
+        }
+
+        .reflection {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .journey-container {
+            margin-top: 30px;
+        }
+
+        .journey-item {
+            margin-bottom: 20px;
+        }
+
+        .journey-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3, p {
+            color: #333;
+        }
+
+        blockquote {
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+        }
+
+        .visual-element img {
+            max-width: 50%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Center buttons container */
+        .buttons-container button {
+    font-size: 18px; /* Increase the font size */
+    padding: 15px 30px; /* Adjust the padding for a bigger button */
+    border-radius: 10px; /* Optional: rounded corners */
+    background-color: #ff69b4; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.buttons-container button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+        /* Hide all content initially */
+        .hidden-content {
+            display: none;
+        }
+
+        .reflection-images {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .reflection-img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Special Day</h1>
+    <p>Here's a little reflection on our amazing day together!</p>
+
+    <div class="reflection">
+        <h2>Reflection</h2>
+        <p>Спасибо тебе огромное за этот день. Он был прекрасным. Я так мечтал об этом дне, особенно последние два месяца. У меня столько было мыслей насчет нашей встречи, после всего что произошло.</p>
+        <p>Наша общение в интернете начиная с начала мая было настоящей болью, и этот день подарил мне надежду. Этот день стал не просто встречей, а настоящим исцелением, надеюсь для нас обоих. Я увидел тебя вживую, у нас был живой диалог, который надеюсь был такой искренний.</p>
+        <p>Каждый миг, проведённый вместе, стал для меня бесценным.</p>
+        
+        <!-- Adding the images -->
+        <div class="reflection-images">
+            <img src="madina.jpg" alt="Reflection Image 1" class="reflection-img">
+            <img src="us1.jpg" alt="Reflection Image 2" class="reflection-img">
+            <img src="basang.jpg" alt="Reflection Image 3" class="reflection-img">
+        </div>
+        
+        <audio controls>
+            <source src="plane.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+
+        <!-- Buttons Container -->
+        <div class="buttons-container">
+            <button onclick="showContent('poem')">Poem</button>
+            <button onclick="showContent('journey')">Our Journey</button>
+        </div>
+    </div>
+
+    <!-- Hidden content for "Poem" -->
+    <div id="poem" class="hidden-content">
+        <h2>Я о тебе, кто мне всего дороже</h2>
+        <blockquote>
+            Я о тебе, кто мне всего дороже,<br>
+            Боюсь писать стихи вдруг, их прочтя...<br>
+            Другой, меня достойней и моложе,<br>
+            Тебя полюбит тоже не шутя.<br>
+            Я о тебе, кто мне всего дороже,<br>
+            Боюсь писать, вдруг кто-нибудь, любя,<br>
+            Заговорит с другой любимой тоже<br>
+            Словами, что нашел я для тебя.<br>
+        </blockquote>
+        <p>Я очень боялся с тобой вживую заговорить. Я думал у меня будет дрожать голос. И я решил учить и читать стихи чтобы подготовить свой голос. Мне очень понравился этот стих.</p>
+        <div class="music-player">
+            <audio controls>
+                <source src="stih.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="visual-element">
+            <img src="photo_2024-10-02_01-47-17.jpg" alt="Разбитое сердце">
+        </div>
+    </div>
+
+    <!-- Hidden content for "Our Journey" -->
+    <div id="journey" class="hidden-content">
+        <h2>Our Journey</h2>
+        <div class="journey-container">
+            <div class="journey-item">
+                <h3>dentsu Canada</h3>
+                <p>Помнишь как я сравнивал это здание...</p>
+                <img src="UnionS.jpg" alt="Union Station">
+            </div>
+            <div class="journey-item">
+                <h3>Sheraton hotel</h3>
+                <p>Фиговый отель, но зато на TimeSquare</p>
+                <img src="sheraton.jpg" alt="Sheraton hotel">
+            </div>
+            <div class="journey-item">
+                <h3>Hilton hotel</h3>
+                <p>Место которое должо было свестись нас, но отдалило меня от тебя. Я так рад что я вместе с тобой прошел мимо него.</p>
+                <img src="hilton.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Рандомная табличка</h3>
+                <p>Иф ю ноу ю ноу</p>
+                <img src="if.jpg" alt="Рандомная табличка">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Zara</h3>
+                <p>Это не европейская зара!</p>
+                <img src="zara.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>lululemon</h3>
+                <p>Cagla, Helloooo</p>
+                <p>Wakanda Forever</p>
+                <img src="lululemon.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Chick-fil-A</h3>
+                <p>А ты его пробовал?</p>
+                <img src="chicken.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Ocho hotel</h3>
+                <p>Отель Ачо Ачо Ачо</p>
+                <img src="ocho.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Скамейка</h3>
+                <p>Скамейка где ты проспала на моем плече 30 минут. Так было приятно.</p>
+                <img src="bench.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Остановка</h3>
+                <p>На этом троллейбусе мы отправились в номер</p>
+                <img src="rail.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Shake Shack</h3>
+                <p>Твое любимое место покушать в Торонто</p>
+                <img src="shake.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Jolibee</h3>
+                <p>Офигеть у них тоже есть Jollibee?</p>
+                <p>Вообще-то это Вьетнамская компания, и даже у меня в Дубае они есть💅</p>
+                <img src="Jollibee.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>HMart</h3>
+                <p>Корейский Магазинчик</p>
+                <img src="hmart.jpg" alt="Description of place 3">
+            </div>
+        
+            <div class="journey-item">
+                <h3>Chelsea Hotel</h3>
+                <p>Место где мы встрелись вновь</p>
+                <img src="chelsea.jpg" alt="Description of place 3">
+            </div>
+        </div>
+    </div>
+
+    <button onclick="window.close()">Close</button> <!-- Button to close the window -->
+
+    <script>
+        // Function to show hidden content
+        function showContent(sectionId) {
+            // Hide all hidden content first
+            const hiddenSections = document.querySelectorAll('.hidden-content');
+            hiddenSections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the clicked section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        // Handle autoplay of background music
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('background-music');
+            if (audio) {
+                audio.play().catch(function(error) {
+                    console.log('Autoplay was prevented:', error);
+                });
+            }
+        });
+
+        // Manage audio play and pause
+        document.addEventListener("DOMContentLoaded", function() {
+            const audios = document.querySelectorAll('audio');
+            let currentAudio = null;
+
+            audios.forEach(audio => {
+                audio.volume = 0.5; // Set volume to 50%
+
+                audio.addEventListener('play', function() {
+                    if (currentAudio && currentAudio !== audio) {
+                        currentAudio.pause();
+                        currentAudio.currentTime = 0;
+                    }
+                    currentAudio = audio;
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
